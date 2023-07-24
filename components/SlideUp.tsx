@@ -2,8 +2,8 @@
 
 import React, { useEffect, useRef, ReactNode } from "react"
 interface Props {
-    offset: string
-    children: ReactNode
+    offset?: string
+    children?: ReactNode
     // any props that come into the component
 }
 
