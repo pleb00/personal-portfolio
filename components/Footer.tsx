@@ -34,7 +34,7 @@ const Footer = () => {
                         />
                     </a>
                     <a
-                        href="https://wa.me/082246142842"
+                        href="https://wa.me/6282246142842"
                         rel="noreferrer"
                         target="_blank"
                     >

@@ -10,7 +10,7 @@ const HeroSection = () => {
                 <div className='md:w-1/2 md:mt-2'>
                     <Image className='rounded-full shadow-2xl' src="/hero-picture.png" alt='' width={300} height={300}></Image>
                 </div>
-                <div className='md:mt-2 md:w-3/5'>
+                <div className='md:mt-2 md:w-3/5 '>
                     <h1 className='font-bold text-4xl mt-6 md:text-7xl md:mt-0'>Hi, I am Nuriel!</h1>
                     <p className='text-lg mt-4 mb-6 md:text-xl'>
                         I am a passionate {" "}
@@ -19,9 +19,15 @@ const HeroSection = () => {
                         {" "}based in Tangerang, dedicated to JavaScript and constantly inspired to learn and grow.
                     </p>
 
+                    <a
+                        href='https://drive.google.com/file/d/1CWKHyuw8MgfXzJAh0kEFCZiF91PKNPVX/view?usp=drive_link'
+                        className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-lg shadow hover:bg-teal-700 md:mr-2'
+                    >
+                        Resume
+                    </a>
                     <Link
                         to='projects'
-                        className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-lg shadow hover:bg-teal-700 '
+                        className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-lg shadow hover:bg-teal-700 md:ml-2'
                         activeClass='active'
                         spy={true}
                         smooth={true}
