@@ -20,7 +20,7 @@ const HeroSection = () => {
                     </p>
 
                     <a
-                        href='https://drive.google.com/file/d/1CWKHyuw8MgfXzJAh0kEFCZiF91PKNPVX/view?usp=drive_link'
+                        href='https://drive.google.com/file/d/1K3EhwbmVFTqzXUDXQmp_7xDbWSJEBEEY/view?usp=drive_link'
                         className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-lg shadow hover:bg-teal-700 md:mr-2'
                     >
                         Resume
