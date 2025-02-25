@@ -3,32 +3,11 @@ import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import fs from 'fs'
 
-const projects = [
-    {
-        name: "EQuiz+",
-        description:
-            "EQuiz+ is an online exam platform that enables users to host and take exams effortlessly. With Text-to-Speech, users can listen to questions, while Speech-to-Text helps answer and navigate through exams. eQuiz+ also generates e-certificates upon exam completion. The backend utilizes NodeJS, ExpressJS, PostgreSQL, and SequelizeJS for robust performance and efficient data management. For the frontend, eQuiz+ leverages ReactJS and Redux for responsive UI and seamless state management.",
-        image: "/equiz.png",
-        github: "https://github.com/equiz-plus/equiz-react",
-        link: "https://equiz-plus-9d092.web.app/",
-    },
-    {
-        name: "Pleb Kicks",
-        description: "A website based application to shop for shoes, includes payment gateway using Midtrans, account system with JWT for password security, and wishlist system.",
-        image: "/pleb-kicks.png",
-        github: "https://github.com/pleb00/pleb-kicks",
-        link: "https://github.com/pleb00/pleb-kicks",
-    },
-    {
-        name: "Bluedit",
-        description:
-            "Content viewer application for users with integrated pagination, bookmarks, query search and QR code for sharing individual post.",
-        image: "/bluedit.png",
-        github: "https://github.com/pleb00/bluedit",
-        link: "https://github.com/pleb00/bluedit",
-    },
-]
+const rawData = fs.readFileSync('./public/json/projects.json', 'utf-8')
+const projects = JSON.parse(rawData)
+
 
 const ProjectsSection = () => {
     return (

@@ -1,0 +1,20 @@
+[
+    { "skill": "HTML" },
+    { "skill": "CSS" },
+    { "skill": "JavaScript" },
+    { "skill": "Kotlin" },
+    { "skill": "Spring JPA" },
+    { "skill": "Node.js" },
+    { "skill": "Express.js" },
+    { "skill": "PostgreSQL" },
+    { "skill": "MongoDB" },
+    { "skill": "Quasar Framework" },
+    { "skill": "Pinia State Manager" },
+    { "skill": "Vue.js" },
+    { "skill": "React.js" },
+    { "skill": "React Redux" },
+    { "skill": "Next.js" },
+    { "skill": "Apollo GraphQL" },
+    { "skill": "Tailwind CSS" },
+    { "skill": "Git" }
+]

@@ -1,22 +1,10 @@
 import React from "react"
 import Image from "next/image"
+import fs from 'fs'
 
-const skills = [
-    { skill: "HTML" },
-    { skill: "CSS" },
-    { skill: "JavaScript" },
-    { skill: "Node.js" },
-    { skill: "Express.js" },
-    { skill: "PosgreSQL" },
-    { skill: "MongoDB" },
-    { skill: "Vue.js" },
-    { skill: "React.js" },
-    { skill: "Next.js" },
-    { skill: "Apollo GraphQL" },
-    { skill: "Tailwind CSS" },
-    { skill: "Git" },
-    { skill: "GitHub" },
-]
+const rawData = fs.readFileSync('./public/json/skills.json', 'utf-8')
+const skills = JSON.parse(rawData)
+
 
 const AboutSection = () => {
     return (
