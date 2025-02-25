@@ -4,7 +4,24 @@ import fs from 'fs'
 
 const rawData = fs.readFileSync('./public/json/skills.json', 'utf-8')
 const skills = JSON.parse(rawData)
-
+const skillsOld = [
+    { skill: "HTML" },
+    { skill: "CSS" },
+    { skill: "JavaScript" },
+    { skill: "Node.js" },
+    { skill: "Express.js" },
+    { skill: "PosgreSQL" },
+    { skill: "MongoDB" },
+    { skill: "Vue.js" },
+    { skill: "React.js" },
+    { skill: "Next.js" },
+    { skill: "Apollo GraphQL" },
+    { skill: "Tailwind CSS" },
+    { skill: "Git" },
+    { skill: "GitHub" },
+]
+console.log(skills)
+console.log(skillsOld)
 
 const AboutSection = () => {
     return (
@@ -35,7 +52,7 @@ const AboutSection = () => {
                     <div className="text-center md:w-1/2 md:text-left">
                         <h1 className="text-2xl font-bold mb-6">My Skills</h1>
                         <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-                            {skills.map((item, idx) => {
+                            {skills.map((item: { skill: string }, idx: number) => {
                                 return (
                                     <p
                                         key={idx}
