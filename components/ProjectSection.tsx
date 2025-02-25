@@ -5,8 +5,15 @@ import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 import fs from 'fs'
 
-const rawData = fs.readFileSync('./public/json/projects.json', 'utf-8')
-const projects = JSON.parse(rawData)
+interface Project {
+    name: string;
+    description: string;
+    image: string;
+    github: string;
+    link?: string; // Optional because of `project.link ? (...) : null`
+}
+const rawData = fs.readFileSync('./public/json/projects.json', 'utf-8');
+const projects: Project[] = JSON.parse(rawData);
 
 
 const ProjectsSection = () => {
@@ -18,7 +25,7 @@ const ProjectsSection = () => {
             </h1>
 
             <div className="flex flex-col space-y-28">
-                {projects.map((project, idx) => {
+                {projects.map((project: Project, idx: number) => {
                     return (
                         <div key={idx}>
                             <SlideUp offset="-300px 0px -300px 0px">
