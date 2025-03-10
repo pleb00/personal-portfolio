@@ -19,12 +19,5 @@
         "image": "/bluedit.png",
         "github": "https://github.com/pleb00/bluedit",
         "link": "https://github.com/pleb00/bluedit"
-    },
-    {
-        "name": "Bluedit",
-        "description": "Content viewer application for users with integrated pagination, bookmarks, query search and QR code for sharing individual post.",
-        "image": "/bluedit.png",
-        "github": "https://github.com/pleb00/bluedit",
-        "link": "https://github.com/pleb00/bluedit"
     }
 ]

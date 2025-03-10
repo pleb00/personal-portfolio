@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Software Developer",
+        "workplace": "PT Dwidasa Samsara Indonesia",
+        "details": [
+            "Developing the front-end of an application for a shares portfolio analysis, management system and banks.",
+            "Managing millions of client records in the database to comply with regulation changes.",
+            "Designing and developing the front-end for the company's proprietary campaign builder application.",
+            "Addressing bugs and implementing change requests related to cross-service migration and automated daily data transfers.",
+            "Conducting system integration testing on resolved bugs and change requests. "
+        ],
+        "clients": [
+            "PT Kustodian Sentral Efek Indonesia (KSEI)", 
+            "PT Jaminan Kredit Indonesia (Jamkrindo)", 
+            "Allo Bank",
+            "Bank Jasa Jakarta",
+            "PT Dwidasa Samsara Indonesia (Firm's Project)"
+        ]
+    }
+]
