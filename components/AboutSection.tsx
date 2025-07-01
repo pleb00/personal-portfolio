@@ -46,7 +46,11 @@ const AboutSection = () => {
                         </p>
                         <br />
                         <p>
-                            After completing my degree, I enrolled in the Fullstack Javascript bootcamp at Hacktiv8 to enhance my programming skills. In just four months, i am now able to construct a client-server based application without a proper background in Computer Engineering.
+                            After completing my degree, I enrolled in the Fullstack Javascript bootcamp at Hacktiv8 to enhance my programming skills. I have a passion for coding and am eager to apply my knowledge in a professional setting.
+                        </p>
+                        <br />
+                        <p>
+                            I have 2 years of experience in web and mobile development and am eager to continue learning and growing as a developer.    
                         </p>
                     </div>
                     <div className="text-center md:w-1/2 md:text-left">

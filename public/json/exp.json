@@ -10,11 +10,36 @@
             "Conducting system integration testing on resolved bugs and change requests. "
         ],
         "clients": [
-            "PT Kustodian Sentral Efek Indonesia (KSEI)", 
-            "PT Jaminan Kredit Indonesia (Jamkrindo)", 
-            "Allo Bank",
-            "Bank Jasa Jakarta",
-            "PT Dwidasa Samsara Indonesia (Firm's Project)"
+            {
+                "name": "PT Kustodian Sentral Efek Indonesia (KSEI)",
+                "logo": "",
+                "details": [
+                ]
+            }, 
+            {
+                "name": "PT Jaminan Kredit Indonesia (Jamkrindo)",
+                "logo": "",
+                "details": [
+                ]
+            },
+            {
+                "name": "Allo Bank",
+                "logo": "",
+                "details": [
+                ]
+            },
+            {
+                "name": "Bank Jasa Jakarta",
+                "logo": "",
+                "details": [
+                ]
+            },
+            {
+                "name": "CTBC Bank",
+                "logo": "",
+                "details": [
+                ]
+            }
         ]
     }
 ]
