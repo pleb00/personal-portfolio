@@ -1,5 +1,12 @@
 [
     {
+        "name": "iWed",
+        "description": "iWed is a wedding invitation website that offers a variety of customizable templates for users to create their own unique wedding invitations. The platform provides an easy-to-use interface for designing and personalizing invitations, allowing users to add their own text, images, and themes. iWed also offers features such as RSVP tracking, guest management, and the ability to share invitations digitally or print them out. With its user-friendly design and comprehensive features, iWed aims to make the wedding invitation process seamless and enjoyable for couples planning their special day.",
+        "image": "/iwed.png",
+        "github": "https://github.com/pleb00/iwed-fe",
+        "link": "https://iwed-fe.vercel.app/"
+    },
+    {
         "name": "EQuiz+",
         "description": "EQuiz+ is an online exam platform that enables users to host and take exams effortlessly. With Text-to-Speech, users can listen to questions, while Speech-to-Text helps answer and navigate through exams. eQuiz+ also generates e-certificates upon exam completion. The backend utilizes NodeJS, ExpressJS, PostgreSQL, and SequelizeJS for robust performance and efficient data management. For the frontend, eQuiz+ leverages ReactJS and Redux for responsive UI and seamless state management.",
         "image": "/equiz.png",
